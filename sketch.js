@@ -23,7 +23,7 @@ function setup() {
       grid[i][j] = Math.round(Math.random());
     }
   }
-  console.table(grid); //Validate Grids
+  //console.table(grid); //Validate Grids
 }
 
 function draw() {

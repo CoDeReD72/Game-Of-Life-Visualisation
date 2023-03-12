@@ -10,9 +10,26 @@
 
     <script src="libraries/p5.min.js"></script>
     <script src="libraries/p5.sound.min.js"></script>
+
   </head>
 
   <body>
-    <script src="sketch.js"></script>
+
+    <h1 class="title"> Conway's Game of Life </h1>
+
+    <div class="simulation">
+      <script src="sketch.js"></script>
+    </div>
+
+    <p>Conway's Game of Life is a cellular automaton where a grid of cells evolves over time based on a set of rules, determining if each cell lives, dies, or reproduces.</p>
+
+    <h2> Rules of Conway's Game of Life </h2>
+    <ul>
+      <li>Rule 1 - Any live cell with fewer than two live neighbours dies, as if by underpopulation</li>
+      <li>Rule 2 - Any live cell with two or three live neighbours lives on to the next generation</li>
+      <li>Rule 3 - Any live cell with more than three live neighbours dies, as if by overpopulation</li>
+      <li>Rule 4 - Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction</li>
+    </ul>
+
   </body>
 </html>

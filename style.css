@@ -1,8 +1,28 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 canvas {
+  display: block;
+}
+
+
+.title{
+  text-align: center;
+}
+
+p{
+  text-align: left;
+}
+
+ul{
   display: block;
 }
