@@ -14,7 +14,7 @@ Conway's Game of Life is one of the most notable forms of cellular automaton, mo
 
 There are many features which can be added to this project in particular including:
 
-- ~~ Basic CSS Styling on the HTML page where the visualisation is generated ~~
+- ~~Basic CSS Styling on the HTML page where the visualisation is generated~~
 
 - Recognition of common patterns
 
