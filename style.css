@@ -2,7 +2,8 @@ html, body {
   margin: 10;
   padding: 10;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: beige;
+  color: white;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
